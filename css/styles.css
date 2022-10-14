@@ -1,3 +1,53 @@
+@import url(background.css);
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* ALL FILES CHANGES */
+
+.logo {
+    height: 200px;
+    width: 200px;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+  }
+
+ol li {
+padding: 8px 16px;
+border-bottom: 1px solid #ddd;
+}
+
+ol li:last-child {
+border-bottom: none
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* INDEX.HTML CHANGES */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#recipes {
+    text-align: center;
+    color: white;
+}
+
