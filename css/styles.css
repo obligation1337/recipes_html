@@ -58,6 +58,16 @@ a:hover {
     color: white;
 }
 
+.img-recipe {
+    width: 500px;
+    height: 500px;
+}
+
+.img-logo {
+    width: 200px;
+    height: 200px;
+}
+
 /* MACANDCHEESE.HTML CHANGES */
 
 .cheese {
