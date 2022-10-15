@@ -1,7 +1,9 @@
 @import url(background.css);
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
+
 
 /* ALL FILES CHANGES */
 
@@ -39,6 +41,11 @@ a:hover {
 
 /* INDEX.HTML CHANGES */
 
+.index {
+    font-size: 32px;
+    overflow: hidden;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -51,3 +58,9 @@ a:hover {
     color: white;
 }
 
+/* MACANDCHEESE.HTML CHANGES */
+
+.cheese {
+    overflow: hidden;
+    font-size: 720px;
+}
