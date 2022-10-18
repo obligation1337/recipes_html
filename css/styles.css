@@ -49,7 +49,7 @@ a:hover {
     text-align: center;
 }
 
-.recipes {
+#text {
     text-align: center;
     color: white;
 }
@@ -73,14 +73,35 @@ a:hover {
     overflow: hidden;
 }
 
-.macandcheese {
+.recipes {
     overflow-x: hidden;
 }
 
-#description {
+.description {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 400px;
     height: 400px;
+}
+
+.ingredients {
+    position: relative;
+    bottom: 250px;
+}
+
+.steps {
+    position: relative;
+    bottom: 250px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 50px;
+    margin-top: -250px;
+}
+
+.author {
+    color: lightblue;
 }
